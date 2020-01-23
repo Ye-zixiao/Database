@@ -1,5 +1,5 @@
 --SQL Server, PostgreSQL
---DDL£∫¥¥Ω®±Ì
+--DDLÔøΩÔøΩÔøΩÔøΩÔøΩÔøΩÔøΩÔøΩ
 CREATE TABLE Skills 
 (skill VARCHAR(32),
  PRIMARY KEY(skill));
@@ -9,26 +9,26 @@ CREATE TABLE EmpSkills
  skill VARCHAR(32),
  PRIMARY KEY(emp, skill));
 
---DML£∫≤Â»Î ˝æ›
+--DMLÔøΩÔøΩÔøΩÔøΩÔøΩÔøΩÔøΩÔøΩÔøΩÔøΩ
 BEGIN TRANSACTION;
 
 INSERT INTO Skills VALUES('Oracle');
 INSERT INTO Skills VALUES('UNIX');
 INSERT INTO Skills VALUES('Java');
 
-INSERT INTO EmpSkills VALUES('œ‡ÃÔ', 'Oracle');
-INSERT INTO EmpSkills VALUES('œ‡ÃÔ', 'UNIX');
-INSERT INTO EmpSkills VALUES('œ‡ÃÔ', 'Java');
-INSERT INTO EmpSkills VALUES('œ‡ÃÔ', 'C#');
-INSERT INTO EmpSkills VALUES('…Ò∆È', 'Oracle');
-INSERT INTO EmpSkills VALUES('…Ò∆È', 'UNIX');
-INSERT INTO EmpSkills VALUES('…Ò∆È', 'Java');
-INSERT INTO EmpSkills VALUES('∆ΩæÆ', 'UNIX');
-INSERT INTO EmpSkills VALUES('∆ΩæÆ', 'Oracle');
-INSERT INTO EmpSkills VALUES('∆ΩæÆ', 'PHP');
-INSERT INTO EmpSkills VALUES('∆ΩæÆ', 'Perl');
-INSERT INTO EmpSkills VALUES('∆ΩæÆ', 'C++');
-INSERT INTO EmpSkills VALUES('»ÙÃÔ≤ø', 'Perl');
-INSERT INTO EmpSkills VALUES('∂…¿¥', 'Oracle');
+INSERT INTO EmpSkills VALUES('Áõ∏Áî∞', 'Oracle');
+INSERT INTO EmpSkills VALUES('Áõ∏Áî∞', 'UNIX');
+INSERT INTO EmpSkills VALUES('Áõ∏Áî∞', 'Java');
+INSERT INTO EmpSkills VALUES('Áõ∏Áî∞', 'C#');
+INSERT INTO EmpSkills VALUES('Á•ûÂ¥é', 'Oracle');
+INSERT INTO EmpSkills VALUES('Á•ûÂ¥é', 'UNIX');
+INSERT INTO EmpSkills VALUES('Á•ûÂ¥é', 'Java');
+INSERT INTO EmpSkills VALUES('Âπ≥‰∫ï', 'UNIX');
+INSERT INTO EmpSkills VALUES('Âπ≥‰∫ï', 'Oracle');
+INSERT INTO EmpSkills VALUES('Âπ≥‰∫ï', 'PHP');
+INSERT INTO EmpSkills VALUES('Âπ≥‰∫ï', 'Perl');
+INSERT INTO EmpSkills VALUES('Âπ≥‰∫ï', 'C++');
+INSERT INTO EmpSkills VALUES('Ëã•Áî∞ÈÉ®', 'Perl');
+INSERT INTO EmpSkills VALUES('Ê∏°Êù•', 'Oracle');
 
 COMMIT;
