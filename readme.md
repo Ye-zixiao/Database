@@ -7,7 +7,9 @@
 文档[PostgreSQL相关的使用文档](SQL基础教程\PostgresSQL相关的使用文档.md)给出了安装postgresql上的一些教程
 文档[如何使用python和java链接数据库](SQL基础教程\SQL基础教程思维导图\如何使用python和java链接数据库.md)介绍了使用jdbc和psycopg2库分别使java和python连接数据库的简单步骤
 
-仓库版本记录：
+仓库版本记录:
 |时间|版本更新记录|
 |---|---|
 |2020-01-24|学习完毕此书，更新了思维导图和连接数据库的技术总结文档|
+
+**注意**:本仓库下的doc都是采用md文件形式书写，由于并且采用的是vscode上的markdown-preview-enhanced插件进行功能拓展，所以有些语法可能在其他可识别md文件的软件上无法使用
