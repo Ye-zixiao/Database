@@ -1,4 +1,4 @@
-# 如何使用Java和python连接数据库
+# <center>如何使用Java和python连接数据库</center>
 
 ## <font color=orange>一、使用Java连接数据库</font>
 
@@ -78,7 +78,7 @@ public class DB_Connect{
         //5、对结果进行操作
         whiel(rs.next()){//获得记录是以一条一条记录行的形式进行保存的，所以可以通过next()方法操作一个
         //游标从第一条记录行开始进行读取，知道读取到最后一条记录行
-            System.out.println(rs.getString("product_id")+", "+rs.getString("product_name"));
+            System.out.println(rs.getString("product_id")+", "+rs.getString("pkckvroduct_name"));
         }
 
         //6、关闭连接释放资源
@@ -111,7 +111,7 @@ public class DB_Connect{
 #### <font color=green>1、了解psycopg2库</font>
 
 psycopg2是python语言中对于postgresql的数据库接口，具体的详细用法和说明可以在[spycopg2的官方文档](http://initd.org/psycopg/docs/)中查看(具体用法点击第二部分的Basic module usage查看)，本文档只是对其用法进行简单的说明。其连接作用和实现效果如图：
-<center>
+<center>kv
 
 ![psycopg2连接数据库示意图](src_pic/psycopg2.png)
 </center>

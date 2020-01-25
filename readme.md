@@ -4,8 +4,8 @@
 
 文件夹-SQL基础教程思维导图-总结了本书中的基本要领和知识点
 文件夹-课本资料-给出了本书官方给的程序例程、参考文档
-文档[PostgreSQL相关的使用文档](SQL基础教程\PostgresSQL相关的使用文档.md)给出了安装postgresql上的一些教程
-文档[如何使用python和java链接数据库](SQL基础教程\SQL基础教程思维导图\如何使用python和java链接数据库.md)介绍了使用jdbc和psycopg2库分别使java和python连接数据库的简单步骤
+文档[PostgreSQL相关的使用文档](SQL基础教程/PostgresSQL相关的使用文档.md)给出了安装postgresql上的一些教程
+文档[如何使用python和java链接数据库](SQL基础教程/SQL基础教程思维导图/如何使用python和java链接数据库.md)介绍了使用jdbc和psycopg2库分别使java和python连接数据库的简单步骤
 
 仓库版本记录:
 |时间|版本更新记录|
