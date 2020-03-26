@@ -91,7 +91,7 @@ C:\Users\yexin\Desktop\数据库\SQL基础教程\picture_source
     psql -U <username> -f <文件路径，这个直接从文件管理器中复制粘贴就行了/...sql> -p 5432 <databasename>
         这里面的-f这些参数完全可以在psql --help中查看了解，文件路径最后也一定要到目标sql文件
 
-到处数据库：
+导出数据库：
 
     psql -U <username> -f <文件路径.../somesome.sql> -p 5432 <databasename>
         其中文件路径最后一定要到某个sql文件否则不会运行成功的
